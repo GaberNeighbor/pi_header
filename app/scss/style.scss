@@ -211,9 +211,9 @@ header.smaller + .site-content {
 }
 
 .nav__container {
-  float: left;
   width: 100%;
   padding: 0 3%;
+  float: left;
   position: relative;
   @include box-shadow(inset 1px, 0px, 0px, 0px, rgba(255,255,255,0));
   z-index: 2;
@@ -258,6 +258,7 @@ header.smaller + .site-content {
     }
   }
   &.back {
+    padding-left: 0;
     svg {
       height: 24px;
       width: auto;
@@ -306,6 +307,7 @@ header.smaller {
   box-shadow: inset 0 0 0 1000px rgba(59,44,76,1);
   @include transition(height 0.15s ease-out 0.3s, box-shadow 0.3s linear 0s);
   .nav__container {
+    @include transition(all 0.3s ease-in)
     @include translate(200px, 0);
     @include box-shadow(inset 1px, 0px, 0px, 0px, rgba(165,125,174,1));
   }
@@ -315,10 +317,8 @@ header.smaller {
     opacity: 0;
   }
   nav a {
-    line-height: 56px;
     &.back {
       line-height: 52px;
-      padding-left: 0;
     }
   }
   nav a.home{
