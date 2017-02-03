@@ -222,7 +222,7 @@ a {
         -webkit-transition: all 0.2s ease-in 0.4s;
         transition: all 0.2s ease-in 0.4s;
         opacity: 1; }
-    header.smaller header.smaller + .site-content {
+    header.smaller + .site-content {
       -moz-transform: translate(0, 120px);
       -o-transform: translate(0, 120px);
       -ms-transform: translate(0, 120px);

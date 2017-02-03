@@ -321,7 +321,7 @@ header.smaller {
         opacity: 1;
       }
     }
-    header.smaller + .site-content {
+    & + .site-content {
       @include translate(0, 120px);
     }
     .header__logo {
