@@ -511,6 +511,9 @@ header.smaller {
         background-size: 7px auto;
         background-position: 1.7vw 7px;
         min-width: 100%;
+        &:hover {
+          background: url(../images/icon_list__y.svg);
+        }
       }
     }
     &.support li a {
