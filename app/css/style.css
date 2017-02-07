@@ -380,7 +380,10 @@ a {
         background-position: 1.7vw 7px;
         min-width: 100%; }
         .menu .sub-menu li a:hover {
-          background: url(../images/icon_list__y.svg); }
+          background: url(../images/icon_list__y.svg); 
+          background-repeat: no-repeat;
+          background-size: 7px auto;
+          background-position: 1.7vw 7px;}
     .menu .sub-menu.support li a {
       min-width: 180px; }
     .menu .sub-menu.education li a {

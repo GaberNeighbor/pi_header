@@ -29,7 +29,7 @@ $(document).ready(function(){
 
 function search() {
     var input = $('.search__input').val();
-    var win = window.open('https://predictiveindex.force.com/knowledgebase/s/search/All/Home/' + input, '_blank');
+    var win = window.open('https://predictiveindex.force.com/knowledgebase/s/search/All/Home/' + input);
     if (win) {
         win.focus();
     } else {
