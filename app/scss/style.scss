@@ -1,8 +1,8 @@
 /* FONTS */
 @font-face {
     font-family: 'montserrat-light';
-    src: url('montserrat-light-webfont.woff2') format('woff2'),
-         url('montserrat-light-webfont.woff') format('woff');
+    src: url('//raw.githubusercontent.com/GaberNeighbor/pi_header/master/app/css/montserrat-light-webfont.woff2') format('woff2'),
+         url('//raw.githubusercontent.com/GaberNeighbor/pi_header/master/app/css/montserrat-light-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -173,7 +173,7 @@ a {
 	left: 0;
 	z-index: 999;
   @include transition(height 0.3s ease-out 0s, box-shadow 0.1s ease-in 0.3s);
-  background: url('../images/logo_catalyst.svg'), url('../images/background_powder-explosion.jpg');
+  background: url('https://cdn.rawgit.com/GaberNeighbor/pi_header/master/app/images/logo_catalyst.svg'), url('https://cdn.rawgit.com/GaberNeighbor/pi_header/master/app/images/background_powder-explosion.jpg');
   background-position: center 70%, center 70%;
   background-attachment:  inherit, fixed;
   background-size: 350px auto, 100%;
@@ -506,13 +506,13 @@ header.smaller {
         padding: 0px 10px 10px 35px;
         float: left;
         line-height: 20px;
-        background: url(../images/icon_list.svg);
+        background: url(https://cdn.rawgit.com/GaberNeighbor/pi_header/master/app/images/icon_list.svg);
         background-repeat: no-repeat;
         background-size: 7px auto;
         background-position: 1.7vw 7px;
         min-width: 100%;
         &:hover {
-          background: url(../images/icon_list__y.svg);
+          background: url(https://cdn.rawgit.com/GaberNeighbor/pi_header/master/app/images/icon_list__y.svg);
         }
       }
     }
@@ -557,7 +557,7 @@ header.smaller {
       @include box-shadow(inset 0px, 0px, 0px, 20px, #fff);
       + .search__button {
         &:before {
-          content: url('../images/icon_search__b.svg');
+          content: url('https://cdn.rawgit.com/GaberNeighbor/pi_header/master/app/images/icon_search__b.svg');
         }
         &:hover {
           &:before {
@@ -591,7 +591,7 @@ header.smaller {
     @include rotate(0);
     overflow: hidden;
     &:before {
-      content: url('../images/icon_search.svg');
+      content: url('https://cdn.rawgit.com/GaberNeighbor/pi_header/master/app/images/icon_search.svg');
       @include transition(all 0.3s ease-out);
       @include transform-origin(6px 5px)
       position: absolute;
@@ -843,7 +843,7 @@ $menu-width: 250px;
       width: 44px;
       height: 44px;
       &:before {
-        content: url(../images/icon_search__b.svg);
+        content: url(https://cdn.rawgit.com/GaberNeighbor/pi_header/master/app/images/icon_search__b.svg);
         top: 15px;
         right: 16px;
       }
@@ -894,7 +894,7 @@ $menu-width: 250px;
         left: 2px;
       }
       & ~ label:before {
-        content: url('../images/icon_plus.svg');
+        content: url('https://cdn.rawgit.com/GaberNeighbor/pi_header/master/app/images/icon_plus.svg');
         width: 44px;
         height: 44px;
         position: absolute;
@@ -980,4 +980,18 @@ $menu-width: 250px;
   -moz-transform: rotate(-135deg);
   -o-transform: rotate(-135deg);
   transform: rotate(-135deg);
+}
+
+/* Influitive Implementation */
+#meta-bar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 6;
+  background-color: transparent;
+}
+
+#top-header {
+  position: fixed;
+  z-index: 5;
 }
