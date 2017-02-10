@@ -854,10 +854,17 @@ body #meta-bar {
     width: 170px; }
 
 #meta-bar .profile img {
-  height: 22px; }
+  height: 22px;
+  margin: 7px 0; }
+
+#meta-bar .profile .ic-chevron-down {
+  line-height: 20px; }
 
 #meta-bar .profile #contact-dropdown {
   margin-left: 0; }
+
+.nav__secondary {
+  display: none; }
 
 #top-header {
   position: fixed;
