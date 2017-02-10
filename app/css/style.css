@@ -879,6 +879,8 @@ body #meta-bar {
   transform: translateY(-2em);
   z-index: -1;
   padding: 8px 0 0 0;
+  position: absolute;
+  top: calc(100% + 40px);
   -moz-transition: all 0.3s ease-out 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s;
   -o-transition: all 0.3s ease-out 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s;
   -webkit-transition: all 0.3s ease-out 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s;
@@ -900,7 +902,8 @@ body #meta-bar {
       background-position: 1.7vw 7px;
       min-width: 100%; }
       #meta-bar .dropdown-menu li a:hover {
-        background-image: url(https://cdn.rawgit.com/GaberNeighbor/pi_header/master/app/images/icon_list__y.svg); }
+        background-image: url(https://cdn.rawgit.com/GaberNeighbor/pi_header/master/app/images/icon_list__y.svg);
+        background-color: transparent; }
 
 .dropdown-toggle:hover {
   color: #ffb635; }
