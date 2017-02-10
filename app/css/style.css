@@ -833,7 +833,7 @@ a {
   transform: rotate(-135deg); }
 
 /* Influitive Implementation */
-#meta-bar {
+body #meta-bar {
   position: fixed;
   top: 0;
   width: 100%;
