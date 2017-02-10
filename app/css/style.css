@@ -904,6 +904,25 @@ body #meta-bar {
       #meta-bar .dropdown-menu li a:hover {
         background-image: url(https://cdn.rawgit.com/GaberNeighbor/pi_header/master/app/images/icon_list__y.svg);
         background-color: transparent; }
+  #meta-bar .dropdown-menu:before {
+    content: '';
+    background: rgba(0, 0, 0, 0.77);
+    width: 86%;
+    height: 100%;
+    position: absolute;
+    left: 7%;
+    top: 0;
+    transform: translateY(-2em);
+    z-index: -1;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.3s ease-out 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s; }
+  #meta-bar .dropdown-menu:hover:before {
+    visibility: visible;
+    opacity: 1;
+    z-index: 1;
+    transform: translateY(0%);
+    transition-delay: 0s, 0s, 0.3s; }
 
 .dropdown-toggle:hover {
   color: #ffb635; }
