@@ -189,7 +189,7 @@ a {
   .nav__main input[type=checkbox] {
     display: none; }
 
-.nav__secondary {
+.nav__secondary, #meta-bar .container {
   position: absolute;
   right: 3%;
   top: 0;
@@ -199,7 +199,7 @@ a {
   -o-transition: all 0.2s linear;
   -webkit-transition: all 0.2s linear;
   transition: all 0.2s linear; }
-  .nav__secondary a {
+  .nav__secondary a, #meta-bar .container a {
     padding: 0 10px; }
 
 @media (min-width: 1024px) {
@@ -839,6 +839,9 @@ body #meta-bar {
   width: 100%;
   z-index: 6;
   background-color: transparent !important; }
+
+#meta-bar .personal-nav {
+  position: relative; }
 
 #top-header {
   position: fixed;
