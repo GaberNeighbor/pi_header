@@ -853,6 +853,12 @@ body #meta-bar {
   #meta-bar .personal-nav > ul {
     width: 170px; }
 
+#meta-bar .profile img {
+  height: 22px; }
+
+#meta-bar .profile #contact-dropdown {
+  margin-left: 0; }
+
 #top-header {
   position: fixed;
   z-index: 5; }
