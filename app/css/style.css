@@ -838,7 +838,7 @@ a {
   top: 0;
   width: 100%;
   z-index: 6;
-  background-color: transparent; }
+  background-color: transparent !important; }
 
 #top-header {
   position: fixed;
