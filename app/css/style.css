@@ -865,7 +865,8 @@ body #meta-bar {
 
 #top-header {
   position: fixed;
-  z-index: 5; }
+  z-index: 5;
+  width: 100%; }
   #top-header .header {
     margin: 0; }
   #top-header .nav__secondary {
