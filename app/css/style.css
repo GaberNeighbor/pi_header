@@ -836,12 +836,15 @@ a {
 body #meta-bar {
   position: fixed;
   top: 0;
-  width: 100%;
+  right: 3%;
   z-index: 6;
-  background-color: transparent !important; }
+  background-color: transparent !important;
+  width: 150px; }
 
 #meta-bar .personal-nav {
-  position: relative; }
+  width: 150px; }
+  #meta-bar .personal-nav > ul {
+    width: 150px; }
 
 #top-header {
   position: fixed;
