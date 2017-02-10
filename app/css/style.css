@@ -349,7 +349,7 @@ a {
       transition-delay: 0s, 0s, 0.3s; }
     .menu .sub-menu-parent:hover {
       z-index: 3; }
-  .menu .sub-menu, .menu .dropdown-menu {
+  .menu .sub-menu, .menu #meta-bar .dropdown-menu {
     visibility: hidden;
     /* hides sub-menu */
     opacity: 0;
@@ -364,13 +364,13 @@ a {
     -o-transition: all 0.3s ease-out 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s;
     -webkit-transition: all 0.3s ease-out 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s;
     transition: all 0.3s ease-out 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s; }
-    .menu .sub-menu a, .menu .dropdown-menu a {
+    .menu .sub-menu a, .menu #meta-bar .dropdown-menu a {
       line-height: 30px; }
-    .menu .sub-menu li, .menu .dropdown-menu li {
+    .menu .sub-menu li, .menu #meta-bar .dropdown-menu li {
       min-width: 100%; }
-      .menu .sub-menu li:last-child, .menu .dropdown-menu li:last-child {
+      .menu .sub-menu li:last-child, .menu #meta-bar .dropdown-menu li:last-child {
         padding-bottom: 10px; }
-      .menu .sub-menu li a, .menu .dropdown-menu li a {
+      .menu .sub-menu li a, .menu #meta-bar .dropdown-menu li a {
         font-size: 15px;
         padding: 0px 10px 10px 35px;
         float: left;
@@ -380,11 +380,11 @@ a {
         background-size: 7px auto;
         background-position: 1.7vw 7px;
         min-width: 100%; }
-        .menu .sub-menu li a:hover, .menu .dropdown-menu li a:hover {
+        .menu .sub-menu li a:hover, .menu #meta-bar .dropdown-menu li a:hover {
           background-image: url(https://cdn.rawgit.com/GaberNeighbor/pi_header/master/app/images/icon_list__y.svg); }
-    .menu .sub-menu.support li a, .menu .dropdown-menu.support li a {
+    .menu .sub-menu.support li a, .menu #meta-bar .dropdown-menu.support li a {
       min-width: 180px; }
-    .menu .sub-menu.education li a, .menu .dropdown-menu.education li a {
+    .menu .sub-menu.education li a, .menu #meta-bar .dropdown-menu.education li a {
       min-width: 190px; }
   .menu .sub-menu-parent:hover .sub-menu {
     visibility: visible;
