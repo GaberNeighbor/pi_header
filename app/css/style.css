@@ -865,3 +865,6 @@ body #meta-bar {
   -ms-transform: translate(0, 240px);
   -webkit-transform: translate(0, 240px);
   transform: translate(0, 240px); }
+
+.influnet-promotion {
+  display: none; }
