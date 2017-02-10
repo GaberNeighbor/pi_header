@@ -836,16 +836,16 @@ a {
   transform: rotate(-135deg); }
 
 /* Influitive Implementation */
-body #meta-bar {
+#meta-bar {
   position: fixed;
   top: 0;
   right: 3%;
   z-index: 6;
   background-color: transparent !important;
   width: 170px; }
-  body #meta-bar .container {
+  #meta-bar .container {
     width: 170px; }
-  body #meta-bar .indicator {
+  #meta-bar .indicator {
     font-size: 22px !important; }
 
 #meta-bar .personal-nav {
