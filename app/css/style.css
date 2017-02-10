@@ -844,6 +844,8 @@ body #meta-bar {
   width: 170px; }
   body #meta-bar .container {
     width: 170px; }
+  body #meta-bar .indicator {
+    font-size: 22px !important; }
 
 #meta-bar .personal-nav {
   width: 170px; }
