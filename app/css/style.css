@@ -868,9 +868,13 @@ body #meta-bar {
 #meta-bar .dropdown-menu {
   background: rgba(0, 0, 0, 0.77);
   border-radius: 0;
-  color: #ffffff; }
+  color: #ffffff;
+  top: calc(100% + 12px);
+  font-size: 18px; }
   #meta-bar .dropdown-menu > li > a {
     color: #ffffff; }
+    #meta-bar .dropdown-menu > li > a:hover {
+      color: #ffb635; }
 
 #top-header {
   position: fixed;
@@ -891,3 +895,7 @@ body #meta-bar {
 
 .influnet-promotion {
   display: none; }
+
+@media (max-width: 1023px) {
+  #meta-bar {
+    top: 5px; } }
