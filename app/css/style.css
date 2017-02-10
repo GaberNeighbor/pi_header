@@ -841,12 +841,14 @@ body #meta-bar {
   right: 3%;
   z-index: 6;
   background-color: transparent !important;
-  width: 150px; }
+  width: 170px; }
+  body #meta-bar .container {
+    width: 170px; }
 
 #meta-bar .personal-nav {
-  width: 150px; }
+  width: 170px; }
   #meta-bar .personal-nav > ul {
-    width: 150px; }
+    width: 170px; }
 
 #top-header {
   position: fixed;
