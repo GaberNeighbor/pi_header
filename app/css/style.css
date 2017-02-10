@@ -863,6 +863,13 @@ body #meta-bar {
 #meta-bar .profile #contact-dropdown {
   margin-left: 0; }
 
+#meta-bar .dropdown-menu {
+  background: rgba(0, 0, 0, 0.77);
+  border-radius: 0;
+  color: #ffffff; }
+  #meta-bar .dropdown-menu > li > a {
+    color: #ffffff; }
+
 #top-header {
   position: fixed;
   z-index: 5;
