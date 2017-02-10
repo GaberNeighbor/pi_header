@@ -132,7 +132,8 @@ a {
   color: #ffffff;
   font-weight: 100;
   font-size: 19px;
-  float: left; }
+  float: left;
+  text-decoration: none; }
   .header nav a img, .header nav a svg {
     height: 18px;
     width: auto;
