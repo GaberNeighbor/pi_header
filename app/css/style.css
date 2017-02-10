@@ -849,7 +849,9 @@ body #meta-bar {
     font-size: 22px !important; }
 
 #meta-bar .personal-nav {
-  width: 170px; }
+  width: 170px;
+  top: 7px;
+  bottom: inherit; }
   #meta-bar .personal-nav > ul {
     width: 170px; }
 
