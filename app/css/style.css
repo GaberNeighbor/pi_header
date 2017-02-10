@@ -374,13 +374,13 @@ a {
         padding: 0px 10px 10px 35px;
         float: left;
         line-height: 20px;
-        background: url(https://cdn.rawgit.com/GaberNeighbor/pi_header/master/app/images/icon_list.svg);
+        background-image: url(https://cdn.rawgit.com/GaberNeighbor/pi_header/master/app/images/icon_list.svg);
         background-repeat: no-repeat;
         background-size: 7px auto;
         background-position: 1.7vw 7px;
         min-width: 100%; }
         .menu .sub-menu li a:hover {
-          background: url(https://cdn.rawgit.com/GaberNeighbor/pi_header/master/app/images/icon_list__y.svg); }
+          background-image: url(https://cdn.rawgit.com/GaberNeighbor/pi_header/master/app/images/icon_list__y.svg); }
     .menu .sub-menu.support li a {
       min-width: 180px; }
     .menu .sub-menu.education li a {
