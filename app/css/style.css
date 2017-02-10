@@ -863,14 +863,13 @@ body #meta-bar {
 #meta-bar .profile #contact-dropdown {
   margin-left: 0; }
 
-.nav__secondary {
-  display: none; }
-
 #top-header {
   position: fixed;
   z-index: 5; }
   #top-header .header {
     margin: 0; }
+  #top-header .nav__secondary {
+    display: none; }
 
 #content {
   -moz-transform: translate(0, 240px);
