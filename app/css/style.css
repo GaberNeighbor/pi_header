@@ -843,3 +843,10 @@ body #meta-bar {
 #top-header {
   position: fixed;
   z-index: 5; }
+
+#content {
+  -moz-transform: translate(0, 240px);
+  -o-transform: translate(0, 240px);
+  -ms-transform: translate(0, 240px);
+  -webkit-transform: translate(0, 240px);
+  transform: translate(0, 240px); }
