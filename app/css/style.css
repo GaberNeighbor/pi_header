@@ -875,12 +875,6 @@ body #meta-bar {
     color: #ffffff; }
 
 .sub-menu, #meta-bar .dropdown-menu {
-  visibility: hidden;
-  /* hides sub-menu */
-  opacity: 0;
-  position: absolute;
-  top: 100%;
-  left: 0.75vw;
   width: auto;
   transform: translateY(-2em);
   z-index: -1;
