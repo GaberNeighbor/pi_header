@@ -204,38 +204,38 @@ a {
     padding: 0 10px; }
 
 @media (min-width: 1024px) {
-  header.smaller {
+  header.header.smaller {
     height: 56px;
     box-shadow: inset 0 0 0 1000px #3b2c4c;
     -moz-transition: height 0.15s ease-out 0.3s, box-shadow 0.3s linear 0s;
     -o-transition: height 0.15s ease-out 0.3s, box-shadow 0.3s linear 0s;
     -webkit-transition: height 0.15s ease-out 0.3s, box-shadow 0.3s linear 0s;
     transition: height 0.15s ease-out 0.3s, box-shadow 0.3s linear 0s; }
-    header.smaller .nav__container {
+    header.header.smaller .nav__container {
       -moz-transform: translate(200px, 0);
       -o-transform: translate(200px, 0);
       -ms-transform: translate(200px, 0);
       -webkit-transform: translate(200px, 0);
       transform: translate(200px, 0); }
-      header.smaller .nav__container:before {
+      header.header.smaller .nav__container:before {
         -moz-transition: all 0.2s ease-in 0.4s;
         -o-transition: all 0.2s ease-in 0.4s;
         -webkit-transition: all 0.2s ease-in 0.4s;
         transition: all 0.2s ease-in 0.4s;
         opacity: 1; }
-    header.smaller + .site-content {
+    header.header.smaller + .site-content {
       -moz-transform: translate(0, 120px);
       -o-transform: translate(0, 120px);
       -ms-transform: translate(0, 120px);
       -webkit-transform: translate(0, 120px);
       transform: translate(0, 120px); }
-    header.smaller .header__logo {
+    header.header.smaller .header__logo {
       height: 56px;
       line-height: 56px;
       opacity: 0; }
-    header.smaller nav a.back {
+    header.header.smaller nav a.back {
       line-height: 52px; }
-    header.smaller nav a.home {
+    header.header.smaller nav a.home {
       animation: home-slide linear 0.6s;
       animation-iteration-count: 1;
       transform-origin: 50% 50%;
@@ -251,7 +251,7 @@ a {
       -ms-animation: home-slide linear 0.6s;
       -ms-animation-iteration-count: 1;
       -ms-transform-origin: 50% 50%; }
-      header.smaller nav a.home img {
+      header.header.smaller nav a.home img {
         -moz-transition: opacity 0.3s ease-out;
         -o-transition: opacity 0.3s ease-out;
         -webkit-transition: opacity 0.3s ease-out;
@@ -286,11 +286,11 @@ a {
     100% {
       -o-transform: translate(0px, 0px); } }
   @-ms-keyframes home-slide {
-    header.smaller 0% {
+    header.header.smaller 0% {
       -ms-transform: translate(-250px, 0px); }
-    header.smaller 50% {
+    header.header.smaller 50% {
       -ms-transform: translate(-250px, 0px); }
-    header.smaller 100% {
+    header.header.smaller 100% {
       -ms-transform: translate(0px, 0px); } } }
 
 /* MENU */
