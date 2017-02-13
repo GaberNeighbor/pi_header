@@ -950,21 +950,21 @@ a {
   -ms-transform: translate(0, 240px);
   -webkit-transform: translate(0, 240px);
   transform: translate(0, 240px);
-  -moz-transition: all 0.3s ease-out;
-  -o-transition: all 0.3s ease-out;
-  -webkit-transition: all 0.3s ease-out;
-  transition: all 0.3s ease-out; }
-
-#meta-bar.smaller ~ #content, #meta-bar.smaller ~ #header, #meta-bar.smaller ~ #context-switcher {
-  -moz-transform: translate(0, 0);
-  -o-transform: translate(0, 0);
-  -ms-transform: translate(0, 0);
-  -webkit-transform: translate(0, 0);
-  transform: translate(0, 0);
   -moz-transition: all 0.3s ease-in;
   -o-transition: all 0.3s ease-in;
   -webkit-transition: all 0.3s ease-in;
   transition: all 0.3s ease-in; }
+
+#meta-bar.smaller ~ #content, #meta-bar.smaller ~ #header, #meta-bar.smaller ~ #context-switcher {
+  -moz-transform: translate(0, 56px);
+  -o-transform: translate(0, 56px);
+  -ms-transform: translate(0, 56px);
+  -webkit-transform: translate(0, 56px);
+  transform: translate(0, 56px);
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out; }
 
 .influnet-promotion {
   display: none; }
