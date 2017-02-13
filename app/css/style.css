@@ -937,7 +937,8 @@ a {
   position: fixed;
   z-index: 5;
   width: 100%;
-  top: 0; }
+  top: 0;
+  display: block !important; }
   #top-header .header {
     margin: 0; }
   #top-header .nav__secondary {
