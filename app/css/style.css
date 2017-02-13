@@ -967,11 +967,11 @@ a {
   transform: translate(0, 0); }
 
 #meta-bar.smaller {
-  -moz-transform: translate(0, 200px);
-  -o-transform: translate(0, 200px);
-  -ms-transform: translate(0, 200px);
-  -webkit-transform: translate(0, 200px);
-  transform: translate(0, 200px); }
+  -moz-transform: translate(200px, 0);
+  -o-transform: translate(200px, 0);
+  -ms-transform: translate(200px, 0);
+  -webkit-transform: translate(200px, 0);
+  transform: translate(200px, 0); }
   #meta-bar.smaller ~ #content, #meta-bar.smaller ~ #header, #meta-bar.smaller ~ #context-switcher {
     -moz-transform: translate(0, 56px);
     -o-transform: translate(0, 56px);
