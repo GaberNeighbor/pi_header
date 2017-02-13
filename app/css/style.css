@@ -873,6 +873,8 @@ a {
   font-size: 18px; }
   #meta-bar .dropdown-menu > li > a {
     color: #ffffff; }
+    #meta-bar .dropdown-menu > li > a:hover {
+      color: #ffb635; }
 
 #meta-bar .dropdown-menu {
   width: auto;
