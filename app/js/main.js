@@ -23,6 +23,18 @@ $(document).ready(function(){
             }
         });
 
+        window.addEventListener('scroll', function(e){
+            var distanceY = window.pageYOffset || document.documentElement.scrollTop,
+                shrinkOn = 1
+            if (distanceY > shrinkOn) {
+                $("header").addClass('smaller');
+            } else {
+                if ($("header").hasClass('smaller')) {
+                    $("header").removeClass('smaller');
+                }
+            }
+        });
+
 	})(jQuery);
 
 });
@@ -36,19 +48,3 @@ function search() {
         alert('Please allow popups for this website');
     }
 }
-
-function init() {
-    window.addEventListener('scroll', function(e){
-        var distanceY = window.pageYOffset || document.documentElement.scrollTop,
-            shrinkOn = 1,
-            header = document.querySelector("header");
-        if (distanceY > shrinkOn) {
-            classie.add(header,"smaller");
-        } else {
-            if (classie.has(header,"smaller")) {
-                classie.remove(header,"smaller");
-            }
-        }
-    });
-}
-window.onload = init();
