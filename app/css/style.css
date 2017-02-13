@@ -989,3 +989,18 @@ a {
 @media (max-width: 1023px) {
   #meta-bar {
     top: 5px; } }
+
+body.with--sidebar #content, body.with--sidebar #header, body.with--sidebar #context-switcher {
+  -moz-transform: translateX(100%);
+  -o-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%); }
+
+body.with--sidebar .site-cache {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6); }
