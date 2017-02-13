@@ -955,7 +955,7 @@ a {
   -webkit-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out; }
 
-header.header.smaller #content, header.header.smaller #header, header.header.smaller #context-switcher {
+header.header.smaller ~ #content, header.header.smaller ~ #header, header.header.smaller ~ #context-switcher {
   -moz-transform: translate(0, 0);
   -o-transform: translate(0, 0);
   -ms-transform: translate(0, 0);
