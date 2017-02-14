@@ -1012,6 +1012,7 @@ html.advocate_hub {
     body[data-community="Catalyst"].with--sidebar:after {
       content: '';
       position: absolute;
+      display: block;
       top: 0;
       left: 0;
       right: 0;
