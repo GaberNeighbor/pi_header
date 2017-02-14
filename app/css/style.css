@@ -657,7 +657,7 @@ a {
     left: 0;
     padding: 0; }
     .menu .sub-menu li a {
-      padding: 4px 0 16px 36px;
+      padding: 4px 16px 16px 36px;
       line-height: 22px;
       background-position: 18px 11px; }
   .menu .sub-menu-parent:hover > a span {
