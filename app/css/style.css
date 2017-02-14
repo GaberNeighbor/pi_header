@@ -990,11 +990,11 @@ a {
   #meta-bar {
     top: 5px; }
   #content, #header, #context-switcher {
-    -moz-transform: translate(0, 0);
-    -o-transform: translate(0, 0);
-    -ms-transform: translate(0, 0);
-    -webkit-transform: translate(0, 0);
-    transform: translate(0, 0); }
+    -moz-transform: translate(0, 56px);
+    -o-transform: translate(0, 56px);
+    -ms-transform: translate(0, 56px);
+    -webkit-transform: translate(0, 56px);
+    transform: translate(0, 56px); }
   body[data-community="Catalyst"] {
     -moz-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
