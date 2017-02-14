@@ -995,6 +995,11 @@ a {
     -ms-transform: translate(0, 0);
     -webkit-transform: translate(0, 0);
     transform: translate(0, 0); }
+  body[data-community="Catalyst"] {
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease; }
   body[data-community="Catalyst"].with--sidebar {
     -moz-transform: translateX(250px);
     -o-transform: translateX(250px);
