@@ -876,6 +876,9 @@ a {
     #meta-bar .dropdown-menu > li > a:hover {
       color: #ffb635; }
 
+html.advocate_hub {
+  overflow-x: hidden; }
+
 #meta-bar .dropdown-menu {
   width: auto;
   transform: translateY(-2em);
@@ -990,11 +993,11 @@ a {
   #meta-bar {
     top: 5px; }
   #content, #header, #context-switcher {
-    -moz-transform: translate(0, 56px);
-    -o-transform: translate(0, 56px);
-    -ms-transform: translate(0, 56px);
-    -webkit-transform: translate(0, 56px);
-    transform: translate(0, 56px); }
+    -moz-transform: translate(0, 66px);
+    -o-transform: translate(0, 66px);
+    -ms-transform: translate(0, 66px);
+    -webkit-transform: translate(0, 66px);
+    transform: translate(0, 66px); }
   body[data-community="Catalyst"] {
     -moz-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
@@ -1006,7 +1009,8 @@ a {
     -ms-transform: translateX(250px);
     -webkit-transform: translateX(250px);
     transform: translateX(250px); }
-    body[data-community="Catalyst"].with--sidebar .site-cache {
+    body[data-community="Catalyst"].with--sidebar:after {
+      content: '';
       position: absolute;
       top: 0;
       left: 0;
