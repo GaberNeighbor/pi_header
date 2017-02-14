@@ -1021,4 +1021,10 @@ html.advocate_hub {
     body[data-community="Catalyst"].with--sidebar #content {
       height: calc(100% - 185px);
       overflow: hidden;
-      margin-bottom: 0; } }
+      margin-bottom: 0; }
+    body[data-community="Catalyst"].with--sidebar #top-header {
+      height: 100%;
+      background: transparent; }
+      body[data-community="Catalyst"].with--sidebar #top-header .nav_container {
+        height: 100%;
+        overflow: auto; } }
