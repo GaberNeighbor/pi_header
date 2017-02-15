@@ -853,14 +853,14 @@ a {
     font-size: 22px !important; }
 
 #meta-bar .personal-nav {
-  width: 170px;
+  width: 143px;
   top: 7px;
   bottom: inherit; }
   #meta-bar .personal-nav > ul {
     width: 170px; }
 
 #meta-bar .profile img {
-  height: 22px;
+  height: 26px;
   margin: 7px 0; }
 
 #meta-bar .profile .ic-chevron-down {
@@ -979,7 +979,7 @@ html.advocate_hub {
     -ms-transform: translate(205px, 0);
     -webkit-transform: translate(205px, 0);
     transform: translate(205px, 0); }
-    #meta-bar.smaller ~ #content, #meta-bar.smaller ~ #header, #meta-bar.smaller ~ #context-switcher {
+    #meta-bar.smaller ~ #content, #meta-bar.smaller ~ #context-switcher {
       -moz-transform: translate(0, 56px);
       -o-transform: translate(0, 56px);
       -ms-transform: translate(0, 56px);
@@ -988,7 +988,9 @@ html.advocate_hub {
       -moz-transition: all 0.3s ease-out;
       -o-transition: all 0.3s ease-out;
       -webkit-transition: all 0.3s ease-out;
-      transition: all 0.3s ease-out; } }
+      transition: all 0.3s ease-out; }
+    #meta-bar.smaller ~ #header.navbar {
+      opacity: 0; } }
 
 .influnet-promotion {
   display: none; }
@@ -997,7 +999,20 @@ html.advocate_hub {
   color: #ffffff; }
 
 #header.navbar {
-  position: fixed; }
+  position: fixed;
+  z-index: 10;
+  top: 220px;
+  right: 3%;
+  background-color: transparent; }
+  #header.navbar .navbar-inner {
+    background-color: transparent;
+    background-image: none;
+    border: none; }
+    #header.navbar .navbar-inner #header-bar {
+      background-color: transparent;
+      border: none; }
+  #header.navbar #main-navigation {
+    display: none; }
 
 @media (max-width: 1023px) {
   #meta-bar {
