@@ -1035,7 +1035,8 @@ html.advocate_hub {
     -o-transform: translateX(250px);
     -ms-transform: translateX(250px);
     -webkit-transform: translateX(250px);
-    transform: translateX(250px); }
+    transform: translateX(250px);
+    overflow: visible; }
     body[data-community="Catalyst"].with--sidebar:after {
       content: '';
       position: absolute;
