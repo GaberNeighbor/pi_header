@@ -1091,6 +1091,15 @@ body.header--smaller .cViewPanel > div {
     -ms-transform: translateX(250px);
     -webkit-transform: translateX(250px);
     transform: translateX(250px); }
+  body.with--sidebar:after {
+    content: '';
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6); }
   .cViewPanel > div {
     -moz-transform: translate(0, 56px);
     -o-transform: translate(0, 56px);
