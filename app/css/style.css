@@ -1093,7 +1093,8 @@ body .uiContainerManager {
     -o-transform: translateX(250px);
     -ms-transform: translateX(250px);
     -webkit-transform: translateX(250px);
-    transform: translateX(250px); }
+    transform: translateX(250px);
+    height: 100%; }
   body.with--sidebar:after {
     content: '';
     position: absolute;
@@ -1105,7 +1106,8 @@ body .uiContainerManager {
     background-color: rgba(0, 0, 0, 0.6); }
   body.with--sidebar div[data-region-name="customHeader"] {
     z-index: 1;
-    height: 100%; }
+    height: 100%;
+    overflow-y: auto; }
   .cViewPanel > div {
     -moz-transform: translate(0, 56px);
     -o-transform: translate(0, 56px);
