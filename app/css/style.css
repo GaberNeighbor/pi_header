@@ -1032,7 +1032,7 @@ html.advocate_hub {
 #header.cHeaderPanel {
   display: none; }
 
-.cViewPanel * {
+.cViewPanel > div {
   -moz-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
@@ -1042,20 +1042,20 @@ html.advocate_hub {
   -ms-transform: translate(0, 240px);
   -webkit-transform: translate(0, 240px);
   transform: translate(0, 240px); }
-  .cViewPanel * div[data-region-name="customHeader"] {
+  .cViewPanel > div div[data-region-name="customHeader"] {
     -moz-transform: translate(0, 0);
     -o-transform: translate(0, 0);
     -ms-transform: translate(0, 0);
     -webkit-transform: translate(0, 0);
     transform: translate(0, 0); }
 
-body.header--smaller .cViewPanel * {
+body.header--smaller .cViewPanel > div {
   -moz-transform: translate(0, 56px);
   -o-transform: translate(0, 56px);
   -ms-transform: translate(0, 56px);
   -webkit-transform: translate(0, 56px);
   transform: translate(0, 56px); }
-  body.header--smaller .cViewPanel * div[data-region-name="customHeader"] {
+  body.header--smaller .cViewPanel > div div[data-region-name="customHeader"] {
     -moz-transform: translate(0, 0);
     -o-transform: translate(0, 0);
     -ms-transform: translate(0, 0);
