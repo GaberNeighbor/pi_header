@@ -166,20 +166,14 @@ a {
     -webkit-transform: translate(-240px, 0);
     transform: translate(-240px, 0); }
   .header nav a.back {
-    padding-left: 0; }
-    .header nav a.back svg {
-      height: 28px;
-      width: auto;
-      margin-top: -2px;
-      vertical-align: middle; }
-      .header nav a.back svg .bg__software {
-        opacity: 0.65;
-        -moz-transition: all 0.2s linear;
-        -o-transition: all 0.2s linear;
-        -webkit-transition: all 0.2s linear;
-        transition: all 0.2s linear; }
-    .header nav a.back:hover svg .bg__software {
-      opacity: 0.9; }
+    padding-left: 0;
+    opacity: 0.85;
+    -moz-transition: opacity 0.25s ease;
+    -o-transition: opacity 0.25s ease;
+    -webkit-transition: opacity 0.25s ease;
+    transition: opacity 0.25s ease; }
+    .header nav a.back:hover {
+      opacity: 1; }
 
 .nav__main {
   float: left;
