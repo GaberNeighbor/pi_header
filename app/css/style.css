@@ -1041,13 +1041,16 @@ html.advocate_hub {
   -o-transform: translate(0, 240px);
   -ms-transform: translate(0, 240px);
   -webkit-transform: translate(0, 240px);
-  transform: translate(0, 240px); }
+  transform: translate(0, 240px);
+  position: relative;
+  z-index: 1; }
   .cViewPanel > div[data-region-name="customHeader"] {
     -moz-transform: translate(0, 0);
     -o-transform: translate(0, 0);
     -ms-transform: translate(0, 0);
     -webkit-transform: translate(0, 0);
-    transform: translate(0, 0); }
+    transform: translate(0, 0);
+    z-index: 2; }
 
 body.header--smaller .cViewPanel > div {
   -moz-transform: translate(0, 56px);
