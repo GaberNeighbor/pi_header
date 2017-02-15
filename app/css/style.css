@@ -1103,6 +1103,9 @@ body .uiContainerManager {
     right: 0;
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.6); }
+  body.with--sidebar div[data-region-name="customHeader"] {
+    z-index: 1;
+    height: 100%; }
   .cViewPanel > div {
     -moz-transform: translate(0, 56px);
     -o-transform: translate(0, 56px);
@@ -1114,7 +1117,4 @@ body .uiContainerManager {
       -o-transform: translate(0, 0);
       -ms-transform: translate(0, 0);
       -webkit-transform: translate(0, 0);
-      transform: translate(0, 0); }
-  div[data-region-name="customHeader"] {
-    z-index: 1;
-    height: 100%; } }
+      transform: translate(0, 0); } }
