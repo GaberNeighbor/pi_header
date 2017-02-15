@@ -951,7 +951,7 @@ html.advocate_hub {
   #top-header .nav__secondary {
     display: none; }
 
-#content, #header, #context-switcher {
+#content, #context-switcher {
   -moz-transform: translate(0, 240px);
   -o-transform: translate(0, 240px);
   -ms-transform: translate(0, 240px);
@@ -993,10 +993,16 @@ html.advocate_hub {
 .influnet-promotion {
   display: none; }
 
+#header-bar #header-points {
+  color: #ffffff; }
+
+#header.navbar {
+  position: fixed; }
+
 @media (max-width: 1023px) {
   #meta-bar {
     top: 5px; }
-  #content, #header, #context-switcher {
+  #content, #context-switcher {
     -moz-transform: translate(0, 66px);
     -o-transform: translate(0, 66px);
     -ms-transform: translate(0, 66px);
