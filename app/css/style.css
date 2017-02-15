@@ -408,6 +408,7 @@ a {
     position: relative;
     background: transparent;
     color: #ffffff;
+    font-family: 'montserrat-light', sans-serif;
     font-size: 13px;
     outline: none;
     -moz-transition: all 0.2s ease-out;
@@ -439,16 +440,20 @@ a {
         transform: rotate(90deg); }
   .menu .search__bar ::-webkit-input-placeholder {
     color: #ffffff;
-    line-height: 10px; }
+    line-height: 10px;
+    font-size: 13px; }
   .menu .search__bar :-moz-placeholder {
     color: #ffffff;
-    line-height: 10px; }
+    line-height: 10px;
+    font-size: 13px; }
   .menu .search__bar ::-moz-placeholder {
     color: #ffffff;
-    line-height: 10px; }
+    line-height: 10px;
+    font-size: 13px; }
   .menu .search__bar :-ms-input-placeholder {
     color: #ffffff;
-    line-height: 10px; }
+    line-height: 10px;
+    font-size: 13px; }
   .menu .search__button {
     position: absolute;
     cursor: pointer;
@@ -1031,6 +1036,9 @@ html.advocate_hub {
 
 #header.cHeaderPanel {
   display: none; }
+
+.cViewPanel img {
+  max-width: inherit; }
 
 .cViewPanel > div {
   -moz-transition: all 0.3s ease;
