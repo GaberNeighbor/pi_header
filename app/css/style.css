@@ -1003,7 +1003,12 @@ html.advocate_hub {
   z-index: 10;
   top: 220px;
   right: 3%;
-  background-color: transparent; }
+  background-color: transparent;
+  opacity: 1;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease; }
   #header.navbar .navbar-inner {
     background-color: transparent;
     background-image: none;
