@@ -1097,15 +1097,15 @@ body .uiContainerManager {
       -webkit-transform: translateX(250px);
       transform: translateX(250px);
       height: 100%; }
-    body.with--sidebar:after {
-      content: '';
-      position: absolute;
-      display: block;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      background-color: rgba(0, 0, 0, 0.6); }
+      body.with--sidebar .cViewPanel:after {
+        content: '';
+        position: absolute;
+        display: block;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.6); }
     body.with--sidebar div[data-region-name="customHeader"] {
       z-index: 1;
       height: 100%;
