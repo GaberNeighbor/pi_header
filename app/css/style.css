@@ -354,7 +354,7 @@ a {
     opacity: 0;
     position: absolute;
     top: 100%;
-    left: 0.75vw;
+    left: 7%;
     width: auto;
     transform: translateY(-2em);
     z-index: -1;
