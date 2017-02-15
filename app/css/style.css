@@ -212,11 +212,11 @@ a {
     -webkit-transition: height 0.15s ease-out 0.3s, box-shadow 0.3s linear 0s;
     transition: height 0.15s ease-out 0.3s, box-shadow 0.3s linear 0s; }
     header.header.smaller .nav__container {
-      -moz-transform: translate(200px, 0);
-      -o-transform: translate(200px, 0);
-      -ms-transform: translate(200px, 0);
-      -webkit-transform: translate(200px, 0);
-      transform: translate(200px, 0); }
+      -moz-transform: translate(205px, 0);
+      -o-transform: translate(205px, 0);
+      -ms-transform: translate(205px, 0);
+      -webkit-transform: translate(205px, 0);
+      transform: translate(205px, 0); }
       header.header.smaller .nav__container:before {
         -moz-transition: all 0.2s ease-in 0.4s;
         -o-transition: all 0.2s ease-in 0.4s;
@@ -970,11 +970,11 @@ html.advocate_hub {
     -webkit-transform: translate(0, 0);
     transform: translate(0, 0); }
   #meta-bar.smaller {
-    -moz-transform: translate(200px, 0);
-    -o-transform: translate(200px, 0);
-    -ms-transform: translate(200px, 0);
-    -webkit-transform: translate(200px, 0);
-    transform: translate(200px, 0); }
+    -moz-transform: translate(205px, 0);
+    -o-transform: translate(205px, 0);
+    -ms-transform: translate(205px, 0);
+    -webkit-transform: translate(205px, 0);
+    transform: translate(205px, 0); }
     #meta-bar.smaller ~ #content, #meta-bar.smaller ~ #header, #meta-bar.smaller ~ #context-switcher {
       -moz-transform: translate(0, 56px);
       -o-transform: translate(0, 56px);
@@ -1028,3 +1028,21 @@ html.advocate_hub {
       body[data-community="Catalyst"].with--sidebar #top-header .nav_container {
         height: 100%;
         overflow: auto; } }
+
+.cViewPanel {
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  -moz-transform: translateX(0px);
+  -o-transform: translateX(0px);
+  -ms-transform: translateX(0px);
+  -webkit-transform: translateX(0px);
+  transform: translateX(0px); }
+
+body.with--sidebar .cViewPanel {
+  -moz-transform: translateX(100%);
+  -o-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%); }
