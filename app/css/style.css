@@ -63,7 +63,7 @@ a {
   -o-transition: height 0.3s ease-out 0s, box-shadow 0.1s ease-in 0.3s;
   -webkit-transition: height 0.3s ease-out 0s, box-shadow 0.1s ease-in 0.3s;
   transition: height 0.3s ease-out 0s, box-shadow 0.1s ease-in 0.3s;
-  background: url("https://cdn.rawgit.com/GaberNeighbor/pi_header/master/app/images/logo_catalyst.svg"), url("https://cdn.rawgit.com/GaberNeighbor/pi_header/master/app/images/background_powder-explosion.jpg");
+  background: url("https://cdn.rawgit.com/GaberNeighbor/pi_header/master/app/images/logo_catalyst.svg"), url("https://rawgit.com/GaberNeighbor/pi_header/master/app/images/background_powder-explosion.jpg");
   background-position: center 70%, center 70%;
   background-attachment: inherit, fixed;
   background-size: 350px auto, 100%;
@@ -130,7 +130,7 @@ a {
     background: #a57eae; }
 
 .header nav a {
-  line-height: 52px;
+  line-height: 56px;
   color: #ffffff;
   font-weight: 100;
   font-size: 19px;
