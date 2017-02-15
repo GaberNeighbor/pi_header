@@ -1101,7 +1101,8 @@ body .uiContainerManager {
         content: '';
         position: absolute;
         display: block;
-        top: 0;
+        top: 66px;
+        z-index: 1;
         left: 0;
         right: 0;
         bottom: 0;
