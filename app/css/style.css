@@ -1050,7 +1050,9 @@ html.advocate_hub {
     -ms-transform: translate(0, 0);
     -webkit-transform: translate(0, 0);
     transform: translate(0, 0);
-    z-index: 2; }
+    z-index: 2;
+    position: fixed;
+    width: 100%; }
 
 body.header--smaller .cViewPanel > div {
   -moz-transform: translate(0, 56px);
