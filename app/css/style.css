@@ -1074,6 +1074,9 @@ body.header--smaller .cViewPanel > div {
     -webkit-transform: translate(0, 0);
     transform: translate(0, 0); }
 
+body .uiContainerManager {
+  position: relative; }
+
 @media (max-width: 1023px) {
   .cViewPanel {
     -moz-transition: all 0.3s ease;
