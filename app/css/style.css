@@ -728,12 +728,22 @@ a {
     background-color: rgba(0, 0, 0, 0.6); }
   .nav__main {
     float: left; }
-    .nav__main ul {
-      list-style: none; }
+    .nav__main ul.sub-menu {
+      list-style: none;
+      max-height: 500px;
+      overflow: hidden;
+      -moz-transition: all 0.4s ease-in 0s;
+      -o-transition: all 0.4s ease-in 0s;
+      -webkit-transition: all 0.4s ease-in 0s;
+      transition: all 0.4s ease-in 0s; }
     .nav__main input {
       position: absolute; }
-      .nav__main input:checked ~ ul {
-        display: none; }
+      .nav__main input:checked ~ ul.sub-menu {
+        max-height: 0;
+        -moz-transition: all 0.4s ease-out 0s;
+        -o-transition: all 0.4s ease-out 0s;
+        -webkit-transition: all 0.4s ease-out 0s;
+        transition: all 0.4s ease-out 0s; }
       .nav__main input ~ label {
         cursor: pointer;
         position: absolute;
