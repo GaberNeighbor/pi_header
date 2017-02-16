@@ -936,12 +936,15 @@ html.advocate_hub {
   width: 100%;
   top: 0;
   display: block !important;
-  transition-delay: 0s, 0s, 0s;
+  -moz-transition-delay: 1s;
+  -o-transition-delay: 1s;
+  -webkit-transition-delay: 1s;
+  transition-delay: 1s;
   height: 66px;
-  -moz-transition: height 0.3s linear;
-  -o-transition: height 0.3s linear;
-  -webkit-transition: height 0.3s linear;
-  transition: height 0.3s linear; }
+  -moz-transition: height 0s linear;
+  -o-transition: height 0s linear;
+  -webkit-transition: height 0s linear;
+  transition: height 0s linear; }
   #top-header .header {
     margin: 0; }
   #top-header .nav__secondary {
@@ -1052,7 +1055,10 @@ html.advocate_hub {
     body[data-community="Catalyst"].with--sidebar #top-header {
       height: 100%;
       background: transparent;
-      transition-delay: 0s, 0s, 0.3s;
+      -moz-transition-delay: 0s;
+      -o-transition-delay: 0s;
+      -webkit-transition-delay: 0s;
+      transition-delay: 0s;
       -moz-transition: height 0s linear;
       -o-transition: height 0s linear;
       -webkit-transition: height 0s linear;
