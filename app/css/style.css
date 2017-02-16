@@ -937,6 +937,7 @@ html.advocate_hub {
   top: 0;
   display: block !important;
   transition-delay: 0s, 0s, 0.3s;
+  height: 66px;
   -moz-transition: height 0.3s linear;
   -o-transition: height 0.3s linear;
   -webkit-transition: height 0.3s linear;
