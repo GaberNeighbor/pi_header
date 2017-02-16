@@ -11,12 +11,7 @@ let stateCheck = setInterval(() => {
 
         function search(e) {
             var input = e.value;
-            var win = window.open('https://predictiveindex.force.com/knowledgebase/s/search/All/Home/' + input);
-            if (win) {
-                win.focus();
-            } else {
-                alert('Please allow popups for this website');
-            }
+            var win = window.location = 'https://predictiveindex.force.com/knowledgebase/s/search/All/Home/' + input;
         }
 
         let iconCheck = setInterval(() => {
