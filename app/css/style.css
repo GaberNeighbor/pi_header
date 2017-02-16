@@ -936,7 +936,7 @@ html.advocate_hub {
   width: 100%;
   top: 0;
   display: block !important;
-  transition-delay: 0s, 0s, 0.3s;
+  transition-delay: 0s, 0s, 0s;
   height: 66px;
   -moz-transition: height 0.3s linear;
   -o-transition: height 0.3s linear;
@@ -1052,7 +1052,7 @@ html.advocate_hub {
     body[data-community="Catalyst"].with--sidebar #top-header {
       height: 100%;
       background: transparent;
-      transition-delay: 0s, 0s, 0s;
+      transition-delay: 0s, 0s, 0.3s;
       -moz-transition: height 0s linear;
       -o-transition: height 0s linear;
       -webkit-transition: height 0s linear;
