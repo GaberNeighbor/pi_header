@@ -916,29 +916,36 @@ html.advocate_hub {
         background-image: url(https://cdn.rawgit.com/GaberNeighbor/pi_header/master/app/images/icon_list__y.svg);
         background-color: transparent; }
 
-/*.user-item {
-  &:before {
-    content: '';
-    background: rgba(0, 0, 0, 0.77);
-    width: 86%;
-    height: 100%;
-    position: absolute;
-    left: 7%;
-    top: 0;
-    transform: translateY(-2em);
-    z-index: -1;
-    visibility: hidden;
-    opacity: 0;
-    transition: all 0.3s ease-out 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s;
-  }
-  &:hover:before {
-    visibility: visible;
-    opacity: 1;
-    z-index: 1;
-    transform: translateY(0%);
-    transition-delay: 0s, 0s, 0.3s;
-  }
-}*/
+body[data-community="Catalyst"] > div {
+  -moz-transform: translate(0, 240px);
+  -o-transform: translate(0, 240px);
+  -ms-transform: translate(0, 240px);
+  -webkit-transform: translate(0, 240px);
+  transform: translate(0, 240px);
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease; }
+  body[data-community="Catalyst"] > div.app-header {
+    -moz-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0); }
+
+body[data-community="Catalyst"].header--smaller > div {
+  -moz-transform: translate(0, 56px);
+  -o-transform: translate(0, 56px);
+  -ms-transform: translate(0, 56px);
+  -webkit-transform: translate(0, 56px);
+  transform: translate(0, 56px); }
+  body[data-community="Catalyst"].header--smaller > div.app-header {
+    -moz-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0); }
+
 .dropdown-toggle:hover {
   color: #ffb635; }
 
@@ -957,17 +964,6 @@ html.advocate_hub {
     margin: 0; }
   #top-header .nav__secondary {
     display: none; }
-
-#content, #context-switcher {
-  -moz-transform: translate(0, 240px);
-  -o-transform: translate(0, 240px);
-  -ms-transform: translate(0, 240px);
-  -webkit-transform: translate(0, 240px);
-  transform: translate(0, 240px);
-  -moz-transition: all 0.3s ease-in;
-  -o-transition: all 0.3s ease-in;
-  -webkit-transition: all 0.3s ease-in;
-  transition: all 0.3s ease-in; }
 
 @media (min-width: 1024px) {
   #meta-bar {
