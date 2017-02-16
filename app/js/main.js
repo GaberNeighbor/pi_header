@@ -1,50 +1,75 @@
-$(document).ready(function(){
+let stateCheck = setInterval(() => {
+  if (document.readyState === 'complete') {
+        clearInterval(stateCheck);
 
-	(function($) {
+        var search_buttons = document.getElementsByClassName('search__button');
+        var search_inputs = document.getElementsByClassName('search__input');
+        var headers = document.getElementsByTagName('header');
+        var header_icon = document.getElementById('header__icon');
+        var cache = document.getElementById('site-cache');
+        var i = 0;
 
-		$('#header__icon').click(function(e){
-			e.preventDefault();
-			$('body').toggleClass('with--sidebar');
-            $('#nav-icon1').toggleClass('open');
-		});
-    
-        $('#site-cache').click(function(e){
-            $('body').removeClass('with--sidebar');
-            $('#nav-icon1').removeClass('open');
-        });
-
-        $('.search__button').click(function(e){
-            search();
-        });
-
-        $(".search__input").keypress(function(e) {
-            if(e.which == 13) {
-                search(); 
+        function search(e) {
+            var input = e.value;
+            var win = window.open('https://predictiveindex.force.com/knowledgebase/s/search/All/Home/' + input);
+            if (win) {
+                win.focus();
+            } else {
+                alert('Please allow popups for this website');
             }
-        });
+        }
+
+        let iconCheck = setInterval(() => {
+            if(header_icon) {
+                clearInterval(iconCheck); 
+                header_icon.addEventListener('click', function(e){
+                    e.preventDefault();
+                    document.body.classList.toggle('with--sidebar');
+                    document.getElementById('nav-icon1').classList.toggle('open');
+                });
+            }
+        }, 100);
+
+
+        
+        if(cache) {
+            cache.addEventListener('click', function(e){
+                document.body.classList.remove('with--sidebar');
+                document.getElementById('nav-icon1').classList.remove('open');
+            });
+        }
+
+        for (i = 0; i < search_buttons.length; i++) {
+            search_buttons[i].addEventListener("click", function(e) {
+                search(this.previousSibling);
+            });
+        }
+
+
+        for (i = 0; i < search_inputs.length; i++) {
+            search_inputs[i].addEventListener("keydown", function(e) {
+                if (e.keyCode === 13) {
+                    search(this);
+                }
+            });
+        }
 
         window.addEventListener('scroll', function(e){
             var distanceY = window.pageYOffset || document.documentElement.scrollTop,
                 shrinkOn = 1
             if (distanceY > shrinkOn) {
-                $("header").addClass('smaller');
+                for (i = 0; i < headers.length; i++) {
+                    headers[i].classList.add('smaller');
+                    document.body.classList.add('header--smaller');
+                }
             } else {
-                if ($("header").hasClass('smaller')) {
-                    $("header").removeClass('smaller');
+                for (i = 0; i < headers.length; i++) {
+                    if (headers[i].classList.contains('smaller')) {
+                        headers[i].classList.remove('smaller');
+                        document.body.classList.remove('header--smaller');
+                    }
                 }
             }
         });
-
-	})(jQuery);
-
-});
-
-function search() {
-    var input = $('.search__input').val();
-    var win = window.open('https://predictiveindex.force.com/knowledgebase/s/search/All/Home/' + input);
-    if (win) {
-        win.focus();
-    } else {
-        alert('Please allow popups for this website');
     }
-}
+}, 100);
