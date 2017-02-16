@@ -926,7 +926,7 @@ body[data-community="Catalyst"] > div {
   -o-transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease; }
-  body[data-community="Catalyst"] > div.app-header {
+  body[data-community="Catalyst"] > div#app-header {
     -moz-transform: translate(0, 0);
     -o-transform: translate(0, 0);
     -ms-transform: translate(0, 0);
@@ -939,7 +939,7 @@ body[data-community="Catalyst"].header--smaller > div {
   -ms-transform: translate(0, 56px);
   -webkit-transform: translate(0, 56px);
   transform: translate(0, 56px); }
-  body[data-community="Catalyst"].header--smaller > div.app-header {
+  body[data-community="Catalyst"].header--smaller > div#app-header {
     -moz-transform: translate(0, 0);
     -o-transform: translate(0, 0);
     -ms-transform: translate(0, 0);
