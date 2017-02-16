@@ -994,8 +994,8 @@ body[data-community="Catalyst"].header--smaller > div {
       transition: all 0.3s ease-out; }
     #meta-bar.smaller ~ #header.navbar {
       opacity: 0; }
-    #meta-bar.smaller ~ #top-header {
-      height: 66px; } }
+    #meta-bar.smaller ~ #top-header, #meta-bar.smaller ~ #app-header {
+      height: 56px; } }
 
 .influnet-promotion {
   display: none; }
